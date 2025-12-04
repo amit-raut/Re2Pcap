@@ -3,8 +3,8 @@ FROM alpine
 # Get required dependencies and setup for Re2Pcap
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 RUN apk update && apk add python3 tcpdump tcpreplay py3-pip
-RUN pip3 install --upgrade pip
-RUN pip3 install pexpect flask requests httpretty requests-toolbelt
+RUN pip3 install --upgrade pip --break-system-packages
+RUN pip3 install pexpect flask requests httpretty requests-toolbelt --break-system-packages
 
 COPY Re2Pcap/ /Re2Pcap
 RUN cd Re2Pcap && chmod +x Re2Pcap.py
