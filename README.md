@@ -1,3 +1,5 @@
+> # I lost admin rights to edit original [Cisco-Talos/Re2Pcap](https://github.com/Cisco-Talos/Re2Pcap) after it was removed and added back to Github; this fork [amit-raut/Re2Pcap](https://github.com/amit-raut/Re2Pcap/) serves as most up to date version of Re2Pcap. I'm happy to offer any help regarding Re2Pcap should anyone need it. - Amit Raut
+
 ## Re2Pcap: Create PCAP file from raw HTTP request or response in seconds
 
 <p align="middle">
