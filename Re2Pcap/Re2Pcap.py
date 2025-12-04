@@ -146,7 +146,7 @@ def createPcap():
                 return send_file(
                     "io/Re2Pcap-result.pcap",
                     as_attachment=True,
-                    attachment_filename=resultFileName,
+                    download_name=resultFileName,
                 )
             else:
                 return jsonify(
